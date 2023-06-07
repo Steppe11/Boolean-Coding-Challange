@@ -1,0 +1,75 @@
+
+
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 30px 100px;
+}
+
+
+header{
+    text-align: center;
+    color: greenyellow;
+    margin-top: 5px;
+}
+
+nav{
+    background-color: greenyellow;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+
+header > img {
+    width: 300px;
+    margin-top: 30px;
+}
+
+main{
+    color: white;
+}
+
+main h2 {
+    display: inline-block;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+
+.numero1 .livello-batteria{
+    width: 500px;
+    height: 20px;
+    background-color: orange;
+}
+
+.numero2 .livello-batteria{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+}
+
+.numero3 .livello-batteria{
+    width: 800px;
+    height: 20px;
+    background-color: rgb(30, 255, 0);
+}
+
+.dashboard{
+    padding: 10px 20px;
+}
+
+.posizione::before{
+    content: "\21A6";
+}
+
+.posizione::after{
+    content: "\2212";
+}
